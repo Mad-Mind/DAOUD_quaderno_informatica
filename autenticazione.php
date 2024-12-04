@@ -17,12 +17,21 @@
     </form>
     <?php
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
-        $user = htmlspecialchars($_POST["user"]);
-        $password = htmlspecialchars($_POST["password"]);
-        if ($user == "admin" && $password == "12345") {
+        // Array di credenziali predefinite
+        $users = [
+            "admin" => password_hash("12345", PASSWORD_DEFAULT),
+            "user" => password_hash("password", PASSWORD_DEFAULT)
+        ];
+
+        // Recupera input utente
+        $user = htmlspecialchars($_POST['user']);
+        $password = $_POST['password'];
+
+        // Verifica credenziali
+        if (array_key_exists($user, $users) && password_verify($password, $users[$user])) {
             echo "<p style='color:green;'>Accesso riuscito. Benvenuto, $user!</p>";
         } else {
-            echo "<p style='color:red;'>Accesso negato. Controlla le credenziali.</p>";
+            echo "<p style='color:red;'>Accesso negato. Nome utente o password errati.</p>";
         }
     }
     ?>
