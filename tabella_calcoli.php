@@ -18,5 +18,6 @@
         ?>
     </table>
     <a href="index.html">Torna all'indice</a>
+    <p>Questa pagina genera automaticamente una tabella pitagorica, utilizzando due cicli for annidati. Ogni riga e colonna rappresentano numeri da 1 a 10, e ogni cella contiene il risultato della loro moltiplicazione. Il primo ciclo gestisce le righe della tabella, mentre il secondo riempie ogni riga con i valori calcolati. Questo esercizio aiuta a comprendere il funzionamento dei cicli annidati e l'output dinamico in HTML tramite PHP.</p>
 </body>
 </html>

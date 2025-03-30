@@ -23,5 +23,6 @@
     }
     ?>
     <a href="index.html">Torna all'indice</a>
+    <p>Questa pagina presenta un modulo HTML che permette all'utente di inserire un indirizzo email. Quando il modulo viene inviato, il PHP esegue una validazione dell'input utilizzando la funzione filter_var() con il filtro FILTER_VALIDATE_EMAIL. Se l'email inserita è valida, viene confermata con un messaggio positivo, altrimenti viene segnalato un errore. Questo esercizio è fondamentale per apprendere come gestire e validare input utente in PHP, garantendo che i dati ricevuti siano corretti prima di elaborarli ulteriormente.</p>
 </body>
 </html>

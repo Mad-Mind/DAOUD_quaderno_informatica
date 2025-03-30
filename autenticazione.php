@@ -36,5 +36,6 @@
     }
     ?>
     <a href="index.html">Torna all'indice</a>
+    <p>Questa pagina implementa un sistema di autenticazione semplice utilizzando un modulo HTML per l'inserimento del nome utente e della password. Dopo l'invio, il PHP verifica le credenziali confrontandole con un array contenente utenti predefiniti. Le password sono memorizzate in forma hashata utilizzando password_hash(), e la verifica avviene tramite password_verify(). Se le credenziali sono corrette, viene mostrato un messaggio di accesso riuscito; in caso contrario, l'utente riceve un avviso di errore. Questo esercizio mostra un metodo di base per gestire login sicuri in PHP.</p>
 </body>
 </html>

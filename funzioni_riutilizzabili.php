@@ -16,5 +16,6 @@ include "libreria.php";
     echo "<p>Moltiplicazione: " . moltiplicazione($a, $b) . "</p>";
     ?>
     <a href="index.html">Torna all'indice</a>
+    <p>Questa pagina dimostra come creare e riutilizzare funzioni PHP definite in un file separato, facilitando la modularità del codice. Le funzioni definite includono operazioni matematiche di base come somma e moltiplicazione. Separare il codice in librerie aiuta a mantenere il progetto organizzato e favorisce il riutilizzo del codice in più parti dell'applicazione. Questo approccio è fondamentale nello sviluppo software professionale, in quanto permette di scrivere codice più pulito e manutenibile.</p>
 </body>
 </html>

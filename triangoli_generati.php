@@ -15,5 +15,6 @@
     }
     ?>
     <a href="index.html">Torna all'indice</a>
+    <p>Questa pagina genera un triangolo di asterischi crescente utilizzando un ciclo for. Ad ogni iterazione del ciclo, il numero di asterischi nella riga aumenta, creando una struttura visivamente simile a un triangolo. Questo esercizio è utile per comprendere il funzionamento dei cicli e la manipolazione delle stringhe in PHP, poiché gli asterischi vengono concatenati dinamicamente per formare la figura.</p>
 </body>
 </html>
