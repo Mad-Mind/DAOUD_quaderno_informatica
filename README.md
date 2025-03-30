@@ -23,4 +23,4 @@ Inoltre, il quaderno raccoglie vari esercizi svolti durante il percorso, i quali
 1. **Clona il repository**:
    Se non hai ancora clonato il repository, esegui il seguente comando nel terminale:
    ```bash
-   git clone https://github.com/galilux/trasferimento-quaderno-d-informatica-Mad-Mind.git
+   git clone https://github.com/Mad-Mind/DAOUD_quaderno_informatica.git
